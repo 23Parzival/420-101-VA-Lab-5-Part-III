@@ -68,9 +68,11 @@ public class SupportSystem
 
     /**
      * Print a good-bye message to the screen.
+     * Call printUsage method to print the usage of each word.
      */
     private void printGoodbye()
     {
         System.out.println("Nice talking to you. Bye...");
+        counter.printUsage();
     }
 }

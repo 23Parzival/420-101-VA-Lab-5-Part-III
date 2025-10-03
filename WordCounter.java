@@ -31,4 +31,12 @@ public class WordCounter
             counts.put(word, counter + 1);
         }
     }
+    
+    /**
+     * When called, prints the usage of each word inputted by the user.
+     */
+    public void printUsage()
+    {
+        System.out.println(counts);
+    }
 }

@@ -1,29 +1,26 @@
-TechSupport - the DodgySoft Technical support system.
 
-This project is part of the material for the book
+Answers to Lab 5, Part III:
 
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
+Part III:
 
-This project is discussed in chapter 6.
+#43 It will only add the value if the key inputted is absent. Basically it will check to see if the key is there
+    and will only input the value if that key isn't a duplicate.
 
+#45 In the responder, add a method that will loop through every key in the 
+    responseMap and then in the wordcounter add an if statement saying to 
+    only add the word to the word count if the word is not found in the 
+    Map using the method created to loop trough it.
 
-This project implements a technical support system for customers of the 
-DodgySoft software company. Users can describe their software problems and 
-get advice instantly!
+#46 It is accurate and complete, it names each class its function and its methods
+    in detail except the ones added by me. No errors found.
 
-The idea is based on Eliza - a famous program described by Joseph Weizenbaum 
-in 1966. (Do a web search for "Eliza" and "Weizenbaum" if you want to know 
-more about this.)
+#47 Special comment formatting for description of what the class does:
+     /**
+     * Create a WordCounter
+     */
+    Description for the purpose of the parameter:
+    @param 
 
-In fact, it is much more primitive than Eliza. But that's enough to match the 
-quality of many software companies' technical support advice...  ;-)
-
-To start this program, create a SupportSystem object and execute the "start" 
-method.
-
-Then start describing your problem by typing in the terminal window.
-
-The purpose of this project is to demonstrate and study library classes, such 
-as ArrayList, HashMap, HashSet, and Random.
+#48 @return : Specifies return type and describes it.
+    @version : Holds current version number of the program. 
+    @author : Holds the name of the author of the program.

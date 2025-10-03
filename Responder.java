@@ -138,7 +138,7 @@ public class Responder
                         do about it, I'm afraid.
                         """);
     }
-
+    
     /**
      * Build up a list of default responses from which we can pick one
      * if we don't know what else to say.
